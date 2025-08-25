@@ -11,7 +11,7 @@
         android:id="@+id/ItemContent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="نص الرسالة"
+        android:text="Message text"
         android:textSize="18sp"
         android:textColor="@android:color/black"/>
 </LinearLayout>

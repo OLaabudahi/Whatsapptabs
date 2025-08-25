@@ -22,7 +22,7 @@ public class StatusFragment extends Fragment {
 
         viewModel = new ViewModelProvider(requireActivity()).get(ItemViewModel.class);
         viewModel.getCount().observe(getViewLifecycleOwner(), count -> {
-            countText.setText("عدد الرسائل المحفوظة: " + count);
+            countText.setText("Number of saved messages: " + count);
         });
 
         return view;
